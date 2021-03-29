@@ -1,0 +1,63 @@
+.Picture {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: azure;
+}
+
+h1 {
+    font-family: fantasy;
+    color: darkblue;
+}
+
+#Welcome {
+    overflow: hidden;
+    background: linear-gradient(#e699ff 0%, #99e6ff 100%);
+    z-index:9;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+#Bio {
+    text-align: center;
+}
+.Menu{
+z-index:12;
+position: fixed;
+top:10px;
+right: 30px;
+list-style: none;
+cursor: pointer;
+}
+.links{
+ color: black;
+ float: left;  
+padding-left: 9px;
+padding-right: 9px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+.links:hover{
+background-color: blanchedalmond;
+}
+html{
+ scroll-behavior: smooth;  
+}
+a{
+text-decoration: none;
+}
+.Write:hover{
+color:darkmagenta;
+}
